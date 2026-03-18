@@ -1,0 +1,113 @@
+This is the text file which provide the cpp file format of the icon used, feel free to update it accordingly.
+
+For more customisation use eleobo.com website for making the icon, this icon are designed by the user in 8*8 format for 0.91 OLED display 12C module.
+
+Website link - https://share.google/ofwEgiLbn0P9Dhxwh
+
+// ohm 8x8 icon
+const unsigned char ohm[] PROGMEM = {
+  0x00,
+  0x18,
+  0x24,
+  0x42,
+  0x42,
+  0x24,
+  0x66,
+  0x00
+};
+
+// Example usage with Adafruit SSD1306 library:
+// display.clearDisplay();
+// display.drawBitmap(0, 0, ohm, 8, 8, WHITE);
+// display.display();
+
+
+// volt 8x8 icon
+const unsigned char volt[] PROGMEM = {
+  0x00,
+  0x00,
+  0x42,
+  0x66,
+  0x3c,
+  0x18,
+  0x00,
+  0x00
+};
+
+// Example usage with Adafruit SSD1306 library:
+// display.clearDisplay();
+// display.drawBitmap(0, 0, volt, 8, 8, WHITE);
+// display.display();
+
+
+// Amp 8x8 icon
+const unsigned char Amp[] PROGMEM = {
+  0xff,
+  0x81,
+  0x99,
+  0x81,
+  0xa5,
+  0xa5,
+  0x81,
+  0xff
+};
+
+// Example usage with Adafruit SSD1306 library:
+// display.clearDisplay();
+// display.drawBitmap(0, 0, Amp, 8, 8, WHITE);
+// display.display();
+
+
+// cap 8x8 icon
+const unsigned char cap[] PROGMEM = {
+  0x00,
+  0x24,
+  0x24,
+  0xe7,
+  0x24,
+  0x24,
+  0x00,
+  0x00
+};
+
+// Example usage with Adafruit SSD1306 library:
+// display.clearDisplay();
+// display.drawBitmap(0, 0, cap, 8, 8, WHITE);
+// display.display();
+
+
+// continuity 8x8 icon
+const unsigned char continuity[] PROGMEM = {
+  0x00,
+  0x4c,
+  0x64,
+  0xf7,
+  0x64,
+  0x4c,
+  0x00,
+  0x00
+};
+
+// Example usage with Adafruit SSD1306 library:
+// display.clearDisplay();
+// display.drawBitmap(0, 0, continuity, 8, 8, WHITE);
+// display.display();
+
+
+// scope 8x8 icon
+const unsigned char scope[] PROGMEM = {
+  0x00,
+  0x00,
+  0x00,
+  0x22,
+  0x55,
+  0x88,
+  0x00,
+  0x00
+};
+
+// Example usage with Adafruit SSD1306 library:
+// display.clearDisplay();
+// display.drawBitmap(0, 0, scope, 8, 8, WHITE);
+// display.display();
+
