@@ -53,5 +53,8 @@ This project focuses on building a multimeter from scratch using a microcontroll
   - display
   - voltage
   - resistance
-  - menu  
+  - menu
+
+ ## Images
+![Menu ](https://github.com/user-attachments/assets/81821963-eead-4da7-a54f-b76c51e66dc8)
 
